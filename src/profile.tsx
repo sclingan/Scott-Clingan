@@ -2,7 +2,7 @@
 function Profile() {
 
     return (
-      <div>
+      <div className="profile">
        <h2>Nice to meet you!</h2>
        <h3>I'm Scott Clingan</h3>
        <p>Based in the United States, I'm a front-end developer

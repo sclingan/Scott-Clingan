@@ -4,7 +4,7 @@
 function Projects() {
 
     return (
-      <ul>
+      <ul className="projects">
         <h3>Projects</h3>
         <a href='#contact'>contact me</a>
         <li></li>

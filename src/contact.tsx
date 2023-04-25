@@ -10,8 +10,14 @@ function Contact() {
             how I could help. Please fill in the form, and
             I'll get back to you as soon as possible.
         </p>
-        <form>
-
+        <form className="contact-form">
+          <label htmlFor="name"></label>
+          <input type='text'placeholder="Name"></input>
+          <label htmlFor="email"></label>
+          <input type='email' placeholder="email"></input>
+          <label htmlFor="message"></label>
+          <input type='text-area' placeholder="message"></input>
+          <button>send message</button>
         </form>
       </div>
     )
