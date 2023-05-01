@@ -41,12 +41,17 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/*
+TODO:
+    rename all classes
+*/
 body {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
   font-family: "Space Mono";
   text-align: center;
-  padding-inline: 2rem;
+  padding-inline: 0.5rem;
+  letter-spacing: 0.3px;
 }
 
 a {
@@ -55,22 +60,59 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   text-underline-offset: 1rem;
+  font-size: 1.3rem;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
+}
+
+.title-name {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .nav-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .profile {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
+}
+
+.underline {
+  border-bottom: 0.2rem solid hsl(120, 68%, 75%);
+}
+
+img {
+  align-self: center;
+  margin-block: 0.8rem;
+}
+
+.profile-img {
+  align-self: center;
+  display: inline-block;
+  margin-block: 2rem;
+  width: 10rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.profile-p {
+  margin-block: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 ul {
@@ -78,12 +120,39 @@ ul {
 }
 
 .skills {
-  border-top: 0.2rem solid hsl(0, 0%, 100%);
-  border-bottom: 0.2rem solid hsl(0, 0%, 100%);
+  border-top: 0.1rem solid hsl(0, 0%, 100%);
+  border-bottom: 0.1rem solid hsl(0, 0%, 100%);
+  padding-block: 1.5rem;
+}
+
+.skills-list {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.skill-title {
+  font-size: 1.9rem;
+  padding-top: 1.5rem;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
 }
 
 .projects {
-  margin-bottom: 2rem;
+  margin-block: 2rem;
+}
+
+.project-link {
+  font-size: 1rem;
+  margin-right: 6.5rem;
+}
+
+.code-link {
+  font-size: 1rem;
 }
 
 .contact {
@@ -97,6 +166,7 @@ ul {
   display: flex;
   flex-direction: column;
   max-width: 25rem;
+  padding-block: 2rem;
 }
 
 input {
@@ -117,4 +187,17 @@ input {
 
 footer {
   background-color: hsl(0, 2%, 16%);
+  padding-block: 4rem;
+}
+
+.ionicon {
+  fill: white;
+  width: 25px;
+  height: 25px;
+}
+
+.fe-mentor-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0;
 }/*# sourceMappingURL=App.css.map */
