@@ -16,50 +16,62 @@ function Projects() {
         </div>
         <ul className="projects">
           <li>
-            <img src={social}></img>
+            <img src={social} className='project-img'></img>
             <h4>Social Proof Section</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
-            <a href='' className='project-link'>View Project</a>
+            </div>
+            <a href='https://sclingan.github.io/social-proof-section' target='_blank' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>
           <li>
-            <img src={article}></img>
+            <img src={article} className='project-img'></img>
             <h4>Article Preview</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
-            <a href='' className='project-link'>View Project</a>
+            </div>
+            <a href='https://sclingan.github.io/article-preview' target='_blank' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>
           <li> 
-            <img src={intro}></img>
+            <img src={intro} className='project-img'></img>
             <h4>Intro Component</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
+            </div>
             <a href='' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>
           <li>
-            <img src={base}></img>
+            <img src={base} className='project-img'></img>
             <h4>Base Apparel</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
+            </div>
             <a href='' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>
           <li>
-            <img src={results}></img>
+            <img src={results} className='project-img'></img>
             <h4>Results Summary</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
+            </div>
             <a href='' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>
           <li>
-            <img src={faq}></img>
+            <img src={faq} className='project-img'></img>
             <h4>FAQ Accordion</h4>
+            <div className='projects-elements'>
             <p>HTML</p>
             <p>CSS</p>
+            </div>
             <a href='' className='project-link'>View Project</a>
             <a href='' className='code-link'>View code</a>
           </li>

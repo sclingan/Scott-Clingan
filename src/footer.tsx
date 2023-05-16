@@ -6,7 +6,7 @@ function Footer() {
 
     return (
       <footer>
-        <h4>scottclingan</h4>
+        <h4 className='footer-h4'>scottclingan</h4>
         <nav className='nav-icons'>
             <img src={frontendMentor} alt=""></img>
             <img src={twitter} alt=""></img>

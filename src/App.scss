@@ -78,6 +78,13 @@ h3 {
     font-size: 1.6rem;
 }
 
+h4 {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: $fw-700;
+    padding-block: 0.5rem;
+}
+
 .profile-p {
     margin-block: 2rem;
     text-align: center;
@@ -119,15 +126,29 @@ ul {
 
 .projects {
     margin-block: 2rem;
+    padding-left: 0;
+    text-align: left;
 }
 
 .project-link {
     font-size: $font-size;
-    margin-right: 6.5rem;
+    padding-right: 4rem;
+}
+
+.project-img {
+    align-self: left;
+    padding-top: 2rem;
 }
 
 .code-link {
     font-size: $font-size;
+}
+
+.projects-elements {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+    margin-top: 0;
 }
 
 .contact {
@@ -147,17 +168,25 @@ ul {
 input {
     background-color: hsl(0, 2%, 16%);
     border: none;
+    border-bottom: 0.1rem solid white;
     padding-block: 1rem;
 }
 
 ::placeholder {
     color: white;
-    border-bottom: 0.1rem solid $accent-green;
+}
+
+button {
+    margin-top: 3rem;
 }
 
 footer {
     background-color: hsl(0, 2%, 16%);
     padding-block: 4rem;
+}
+
+.footer-h4 {
+    text-align: center;
 }
 
 .ionicon {
